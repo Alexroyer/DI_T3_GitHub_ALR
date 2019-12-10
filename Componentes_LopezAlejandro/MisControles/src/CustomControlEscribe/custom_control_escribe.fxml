@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"> 
+    <TextField fx:id="textField">
+      <HBox.margin>
+         <Insets right="5.0" />
+      </HBox.margin></TextField>
+    <Button fx:id="btn" text="Pulsar!">
+      <HBox.margin>
+         <Insets />
+      </HBox.margin></Button>
+   <padding>
+      <Insets bottom="5.0" />
+   </padding>
+</fx:root>
+

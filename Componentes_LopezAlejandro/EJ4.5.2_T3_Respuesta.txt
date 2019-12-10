@@ -1,0 +1,10 @@
+Alejandro López Rebollo
+Preguntas acerca del ejercicio anterior:
+1. ¿Incluye la clase métodos get y set?¿cuáles?
+- Sí, getText (que retorna un tipo string) y setText (que retorna un tipo void).
+
+2. ¿Incluye esta clase la gestión de eventos?¿Donde?
+- No incluye un EventHandler en el documento java, pero el evento se controla con el método [ protected void doSomething() ] manejando su comportamiento con FXML.
+
+3. ¿Para qué importamos la clase javafx.beans.property.StringProperty?
+- Porque los métodos de StringPoperty se usan en los getText y setText
